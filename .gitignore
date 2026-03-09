@@ -50,8 +50,7 @@ coverage/
 .agents/
 skills-lock.json
 
-# Source images (kept in public/imagenes)
-imagenes/
+
 
 # Misc
 *.pem
