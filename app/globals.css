@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --brand-primary: #2f6fb6;
+  --brand-secondary: #4fa3e3;
+  --brand-dark: #1e4f8a;
+  --brand-bg: #eaf3fb;
+  --brand-text: #6b7c93;
+  --brand-white: #ffffff;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+}
+
+body {
+  color: #0f1a2a;
+  background: linear-gradient(135deg, var(--brand-bg), var(--brand-white));
+}
+
+::selection {
+  background: rgba(79, 163, 227, 0.28);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
